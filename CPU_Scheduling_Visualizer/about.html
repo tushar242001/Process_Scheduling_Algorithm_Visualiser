@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>OS Virtual Lab</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="./index.html">OS LAB</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="docs.html">DOCS</a></li>
+                    <!-- <li><a href="blog.html">BLOG</a></li> -->
+                    <li><a href="./backend/ganttcharts.html">SIMULATOR</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Me</h1>
+    </section>
+
+    <div class="container_1">
+        <div class="header_1">
+            
+        </div>
+
+        <div class="sub_container" data-aos="zoom-in-up">
+            <div class="teams">
+                <img src="./images/IMG_2904.jpg" alt="">
+                <div class="name">Tushar Adling</div>
+                <div class="desig">22010805</div>
+                <div class="about">Student At Vishwakarma Institute of Information Technology </div>
+                <div class="social-links_1">
+                    <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/tushar_24_06_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/adling-tushar-24ba80206/"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+            </div>
+
+            
+            
+
+            
+        </div>
+
+       
+
+
+    </div>
+
+    
+   
+    <section class="footer">
+        
+            
+        <p>Made With <i class="far fa-heart"></i> by Tushar Adling</p>
+        <p> <i class="fa fa-copyright"></i> copyright 2024 || All rights reserved</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200, // offset (in px) from the original trigger point
+        duration: 600
+      });
+    </script>
+</body>
+
+</html>
