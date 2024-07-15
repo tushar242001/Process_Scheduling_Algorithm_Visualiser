@@ -1,6 +1,6 @@
 # CPU_Scheduling_Algorithm-Visualizer
 
-Website link : 
+Website link : https://tushar242001.github.io/CPU_Scheduling_Algorithm_Visualiser/
 
 #FCFS #SJF #RoundRobin #SRTF #Priority
 #CPU Scheduling Algorithm
