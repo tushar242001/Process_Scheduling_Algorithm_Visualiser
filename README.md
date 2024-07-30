@@ -29,11 +29,11 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/cpu-scheduling-visualizer.git
+    git clone https://github.com/your-username/Process_Scheduling_Algorithm_Visualiser.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd cpu-scheduling-visualizer
+    cd Process_Scheduling_Algorithm_Visualiser
     ```
 
 ## Usage
