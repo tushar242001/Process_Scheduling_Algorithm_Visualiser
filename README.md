@@ -1,10 +1,10 @@
 
-# CPU Scheduling Algorithm Visualizer
+# Process Scheduling Algorithm Visualizer
 
-- Project Demo : https://tushar242001.github.io/CPU_Scheduling_Algorithm_Visualiser/
+- Project Demo : https://tushar242001.github.io/Process_Scheduling_Algorithm_Visualiser/
   
 ## Project Overview
-The CPU Scheduling Algorithm Visualizer is an interactive platform designed to simulate various CPU scheduling algorithms, including First Come First Serve (FCFS), Shortest Job First (SJF), Round Robin (RR), Shortest Remaining Time First (SRTF), Priority, and other popular algorithms. 
+The Process Scheduling Algorithm Visualizer is an interactive platform designed to simulate various CPU scheduling algorithms, including First Come First Serve (FCFS), Shortest Job First (SJF), Round Robin (RR), Shortest Remaining Time First (SRTF), Priority, and other popular algorithms. 
 
 This project aims to provide a hands-on learning experience for students, educators, and professionals interested in understanding CPU scheduling algorithms and their practical applications.
 
@@ -37,7 +37,7 @@ To run this project locally, follow these steps:
     ```
 
 ## Usage
-To use the CPU Scheduling Algorithm Visualizer:
+To use the Process Scheduling Algorithm Visualizer:
 
 1. Open the `index.html` file in your web browser.
 2. Enter the necessary data, including the number of processes, arrival time, burst time, priority, and time quantum.
