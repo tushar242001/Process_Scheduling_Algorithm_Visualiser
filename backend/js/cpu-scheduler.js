@@ -88,8 +88,6 @@ $(document).ready(function () {
 			}
 
 		}
-
-
 		return smallestIndex;
 	}
 
